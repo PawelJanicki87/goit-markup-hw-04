@@ -362,12 +362,12 @@ body {
 .wraper {
   box-sizing: border-box;
   display: block;
+  padding: 30px 0;
 }
 
 .name {
   display: block;
-  text-align: Center;
-  margin-top: 30px;
+  text-align: center;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -379,21 +379,16 @@ body {
 .profesion {
   display: block;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 18.75px;
   color: var(--sixth-color);
-}
-
-.profesion:not(:last-child) {
-  margin-bottom: 30px;
 }
 
 /*---------------------------------------------social-links-----------*/
 .social_list {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
   gap: 10px;
 }
 .social_item {
@@ -660,7 +655,7 @@ body {
 }
 
 .portfolio_img {
-  margin-bottom: 30px;
+  gap: 30px;
   background: var(--background-portfolio-img);
 }
 
@@ -673,12 +668,13 @@ body {
 }
 
 .portfolio_wraper {
+  padding: 20px, 0 24px, 24px;
   background: var(--tirth-color);
   border: var(--border-portfolio-wraper);
 }
 
 .title {
-  padding: 20px 24px 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -687,8 +683,6 @@ body {
 }
 
 .subtitle {
-  padding-bottom: 20px;
-  padding-left: 24px;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
